@@ -10,13 +10,13 @@
             // | Echap |   &   |   é   |   "   |   '   |   (   |   -   |   è   |   _   |   ç   |   à   |   )   |   =   |  ⌫  |
             // |  Tab  |   a   |   z   |   e   |   r   |   t   |   y   |   u   |   i   |   o   |   p   |   ^   |   $   |  µ  |
             // | Caps  |   Q   |   S   |   D   |   F   |   G   |   H   |   J   |   K   |   L   |   M   |   %   | Enter |      |
-            // | Shift |   W   |   X   |   C   |   V   |   B   |   N   |   ,   |   ;   |   :   |   !   | Shift |  ↑    |      |
+            // | Shift |   W   |   X   |   C   |   V   |   B   |   N   |   ?   |   ;   |   :   |   !   | Shift |  ↑    |      |
             // ---------------------------------------------------------------------------------------------------------------------------------
             bindings = <
                 &kp ESC     &kp N1     &kp N2     &kp N3     &kp N4     &kp N5     &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS     &kp EQUAL    &kp BSPC   // Row 0
                 &kp TAB     &kp A      &kp Z      &kp E      &kp R      &kp T      &kp Y      &kp U      &kp I      &kp O      &kp P      &kp LBKT      &kp RBKT     &kp GRAVE  // Row 1
                 &kp CAPS    &kp Q      &kp S      &kp D      &kp F      &kp G      &kp H      &kp J      &kp K      &kp L      &kp M      &kp N5        &kp ENTER    &none      // Row 2
-                &kp LSFT    &kp W      &kp X      &kp C      &kp V      &kp B      &kp N      &kp COMMA  &kp SEMI   &kp SEMI   &kp N8     &kp RSFT      &kp UP       &none      // Row 3
+                &kp LSFT    &kp W      &kp X      &kp C      &kp V      &kp B      &kp N      &kp SLASH  &kp SEMI   &kp SEMI   &kp N8     &none         &kp RSFT      &kp UP    // Row 3
             >;
         };
     };
