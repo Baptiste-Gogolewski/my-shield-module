@@ -3,14 +3,14 @@
         semi_dot: mod_morph_semidot {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp DOT &kp SEMICOLON>;
+            bindings = <&kp M &kp SEMI>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
 
         colon_slash: mod_morph_colonslash {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp COLON &kp FSLH>;
+            bindings = <&kp DOT &kp MINUS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
