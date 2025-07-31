@@ -13,11 +13,5 @@
             bindings = <&kp DOT &kp KP_DIVIDE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-
-        percent_unicode: percent_unicode_behavior {
-            compatible = "zmk,behavior-unicode";
-            #binding-cells = <0>;
-            unicode = <0x25>;
-        };
     };
 };
