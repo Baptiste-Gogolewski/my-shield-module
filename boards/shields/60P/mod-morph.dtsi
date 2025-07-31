@@ -17,7 +17,7 @@
         less_greater: mod_morph_lessgreater {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp LESS_THAN &kp GREATER_THAN>;
+            bindings = <&kp NUBS &kp NUBS>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
