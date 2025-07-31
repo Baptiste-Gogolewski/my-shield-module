@@ -10,7 +10,7 @@
         colon_slash: mod_morph_colonslash {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp COLON &kp FORWARD SLASH>;
+            bindings = <&kp COLON &kp FSLH>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
