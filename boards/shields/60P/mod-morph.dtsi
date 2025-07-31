@@ -3,7 +3,7 @@
         semi_dot: mod_morph_semidot {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
-            bindings = <&kp SEMI &kp DOT>;
+            bindings = <&kp PERIOD &kp DOT>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
     };
