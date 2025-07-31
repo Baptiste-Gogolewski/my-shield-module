@@ -13,5 +13,12 @@
             bindings = <&kp DOT &kp KP_DIVIDE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        less_greater: mod_morph_lessgreater {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp LESS_THAN &kp GREATER_THAN>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
     };
 };
