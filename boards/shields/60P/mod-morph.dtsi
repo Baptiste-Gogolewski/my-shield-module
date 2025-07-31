@@ -13,5 +13,12 @@
             bindings = <&kp DOT &kp KP_DIVIDE>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
+
+        percent_mod: percent_mod_behavior {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&kp N5 &kp N5>;
+            mods = <MOD_RALT>;
+        };
     };
 };
